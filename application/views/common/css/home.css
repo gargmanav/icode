@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{background: black;
+    color: #d5d5d5;
+    height: 5em;
+    left: 0;
+    line-height: 5em;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 100%;
+    z-index: 10001;
+
+}
+#header .inner{
+	max-width: 65em;
+    width: calc(100% - 6em);
+    margin: 0 auto;
+    position: relative;
+
+}
+#header .inner .logo{font-family: 'Pacifico', cursive;
+			display: inline-block;
+			height: inherit;
+			left: 0;
+			line-height: inherit;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			top: 0;
+			color: #e5474b;
+			font-size: 1.75em;
+			text-transform: none;
+			font-weight: normal;
+			padding: 0;
+	
+
+}
+#header a{
+            
+			display: inline-block;
+			padding: 0 2em;
+			color: #ffffff;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: .85em;
+}
+#banner {
+		color: #f2a3a5;
+		padding: 13em 0 11em 0;
+		
+		background-image: url("<?php echo base_url('assets/images/banner.jpg') ?>");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 15% left;
+		text-align: left;
+		
+	}
+        #banner h1{
+        	font-family: sans-serif;
+        	color: #ffffff;
+
+        }
+		#banner a {
+			color: #ffffff;
+			text-decoration: none;
+
+		}
+
+		
+
+		#banner .inner {
+			max-width: 65em;
+			width: calc(100% - 6em);
+			margin: 0 auto;
+			position: relative;
+			z-index: 10000;
+			line-height: 1.5;
+		}
+#one {
+    padding: 6em 0 4em 0;
+}
+#one h2{
+	color: #E5474B
+	font-weight:bold;
+}
+
